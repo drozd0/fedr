@@ -12,13 +12,14 @@
         <tr>
             <th>First name</th>
             <th>Last name</th>
-
         </tr>
         </thead>
         <tbody>
         <c:forEach items="${user.employees}" var="user">
             <tr>
-                <td>${user.firstName}</td>
+                <td>
+                    <a href="/employee/${user.id}">${user.firstName}</a>
+                </td>
                 <td>${user.lastName}</td>
             </tr>
         </c:forEach>
