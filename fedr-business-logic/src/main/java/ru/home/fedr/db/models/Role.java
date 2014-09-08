@@ -8,11 +8,11 @@ import java.io.Serializable;
 @Table(name = "role")
 public class Role implements Serializable{
     @Id
-    @Column(name = "id")
+    @Column(name = "role_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "roleName")
+    @Column(name = "role_name")
     @NotNull
     private String roleName;
 

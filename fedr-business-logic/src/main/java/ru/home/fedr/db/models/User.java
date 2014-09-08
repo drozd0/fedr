@@ -10,7 +10,7 @@ import java.util.List;
 @Table(name = "user")
 public class User implements Serializable {
     @Id
-    @Column(name = "id")
+    @Column(name = "user_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -22,11 +22,11 @@ public class User implements Serializable {
     @NotNull
     private String password;
 
-    @OneToMany(mappedBy = "employee", fetch = FetchType.EAGER, orphanRemoval = true)
+    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER, orphanRemoval = true)
     private List<Employee> employees = new ArrayList<>();
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(table = "role", name = "id")
+    @JoinColumn( name = "role_id")
     private Role role;
 
     @Version
@@ -57,7 +57,7 @@ public class User implements Serializable {
         this.password = password;
     }
 
-    public List<Employee> getEmployees() {
+   public List<Employee> getEmployees() {
         return employees;
     }
 
@@ -73,7 +73,7 @@ public class User implements Serializable {
         this.version = version;
     }
 
-    public Role getRole() {
+   public Role getRole() {
         return role;
     }
 
