@@ -1,0 +1,1710 @@
+.page_landing_plans_html {
+    cursor: default
+}
+
+.page_landing_plans_html body {
+    height: 100%
+}
+
+.header-new .border-bottom {
+    display: none
+}
+
+.page_landing_plans_html #footer {
+    z-index: 1100;
+    height: auto
+}
+
+.page_landing_plans_html #header {
+    z-index: 2000
+}
+
+.page_landing_plans_html #header .upgrade_link {
+    display: none
+}
+
+.l-landing_plans {
+    overflow: hidden;
+    height: 100%
+}
+
+.hrule {
+    border-top: 1px;
+    border-style: solid;
+    border-color: #d5d5d5;
+    height: 0;
+    display: block
+}
+
+.vrule {
+    border-left: 1px;
+    border-style: solid;
+    border-color: #d5d5d5;
+    width: 0;
+    display: inline-block
+}
+
+.l-landing_plans .overlay_container {
+    margin-top: 12px;
+    max-height: 575px
+}
+
+.l-landing_plans .card {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    min-width: 250px;
+    max-width: 900px;
+    max-height: 575px;
+    z-index: 1000;
+    text-align: center
+}
+
+.l-landing_plans .card h1 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 15px
+}
+
+.l-landing_plans .card h4 {
+    color: #d5d5d5;
+    font-weight: 700
+}
+
+.l-landing_plans .card table.card_layout td {
+    vertical-align: top;
+    max-width: 380px
+}
+
+.info_section {
+    vertical-align: top;
+    position: relative;
+    margin-bottom: 8px;
+    display: inline-block
+}
+
+.info_section .subsection {
+    display: inline-block
+}
+
+.l-landing_plans .card .icon_arrangement {
+    width: 200px;
+    position: relative
+}
+
+.l-landing_plans .card .large_icon {
+    height: 55px;
+    width: 70px;
+    margin: auto
+}
+
+.l-landing_plans .card .large_icon img {
+    height: 45px
+}
+
+.l-landing_plans .card .icon_arrangement table.icon_grid {
+    clear: right;
+    border-spacing: 8px;
+    border-collapse: separate;
+    margin-top: 5px
+}
+
+.l-landing_plans .card .icon_arrangement table.icon_grid td {
+    line-height: 14px
+}
+
+.l-landing_plans .card .icon_arrangement .icon_grid img {
+    width: 24px;
+    height: 23px
+}
+
+.l-landing_plans .offer_ending_item {
+    font-weight: 900
+}
+
+.l-landing_plans .offer_ending {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-size: .563rem;
+    font-weight: 700;
+    color: #444;
+    background-color: #f9c328;
+    position: absolute;
+    padding: 1px 6px 1px 6px;
+    right: 20px;
+    top: 0;
+    opacity: .7;
+    z-index: 1
+}
+
+.l-landing_plans li.selected .offer_ending, .l-landing_plans a:hover .offer_ending {
+    opacity: 1.0
+}
+
+.info_section .info_text {
+    color: #fff;
+    font-size: 14px;
+    font-size: .875rem;
+    padding-right: 50px;
+    width: 320px
+}
+
+.info_section .info_text ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    color: #d5d5d5;
+    font-weight: 400;
+    padding-left: 17px
+}
+
+.info_section .info_text li {
+    font-size: 13px;
+    font-size: .8rem
+}
+
+.info_section .info_text .coming_soon {
+    color: #aaa;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 3px;
+    font-size: 13px;
+    font-size: .8rem
+}
+
+.info_section .info_text .emphpasize {
+    font-weight: bold
+}
+
+.l-landing_plans .card .learn_more {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal
+}
+
+.learn_more a {
+    text-decoration: none
+}
+
+.info_overlay .learn_more a {
+    white-space: nowrap
+}
+
+.l-landing_plans .plans {
+    position: relative;
+    margin-top: 15px;
+    min-height: 300px;
+    z-index: 100;
+    padding: 0
+}
+
+.l-landing_plans .plans_container {
+    min-height: 340px
+}
+
+.plans .currency_dropdown {
+    text-align: right;
+    margin: 10px 20px 12px 0;
+    display: block
+}
+
+.plans .tab_footer {
+    max-width: 1040px;
+    margin-left: 30px
+}
+
+.plans .tab_footer.center {
+    margin-left: 0
+}
+
+.plans .single_apps .tab_footer.center {
+    margin-top: 20px
+}
+
+.plans .tab_footer .currency_dropdown, .plans .tab_footer .tax_info_footnote {
+    text-align: right;
+    margin: 10px 20px 12px 0;
+    float: right
+}
+
+.plans .tab_footer .currency_dropdown.center, .plans .tab_footer .tax_info_footnote.center {
+    float: none;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.plans .tab_footer .currency_dropdown.center {
+    margin-right: 0
+}
+
+.plans .tab_footer .currency_dropdown {
+    position: relative;
+    bottom: 2px
+}
+
+.plans .currency_dropdown label, .plans .currency_dropdown select {
+    font-size: 12px;
+    font-weight: 300
+}
+
+.plans .btn {
+    border-radius: 6px;
+    background-color: #009df5;
+    background-image: none;
+    border-style: none !important;
+    text-shadow: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+}
+
+.plans .plan {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    min-height: 195px;
+    width: 220px;
+    vertical-align: top
+}
+
+.plans .btn:hover, .plans .btn.primary:hover, .plans .btn.action:hover, .plans .btn.cancel:hover, .plans .btn.choice:hover {
+    background-color: #2a78b8;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+}
+
+.plans .plan.with_photography_plan .plan_options {
+    margin-bottom: 8px
+}
+
+.plans .plan.free_plan.with_photography_plan {
+    display: block;
+    margin: -12px 0 35px 0;
+    padding: 5px 10px 10px 10px;
+    min-height: 35px;
+    width: inherit;
+    text-align: center;
+    vertical-align: top;
+    border-style: solid;
+    border-color: #d5d5d5;
+    border-bottom-width: 1px
+}
+
+.plans .plan.with_photography_plan.plan_photography, .plans .plan.with_photography_plan.plan_single, .plans .plan.with_photography_plan.plan_upgrade, .plans .plan.with_photography_plan.plan_full {
+    min-height: 220px
+}
+
+.plans .plan.with_photography_plan.plan_team, .plans .plan.with_photography_plan.plan_team_upgrade {
+    min-height: 330px
+}
+
+.plan.with_photography_plan.bordered_plan .plan_sign_up a {
+    margin-bottom: 11px
+}
+
+.plans .plan.with_photography_plan.plan_edu_photography, .plans .plan.with_photography_plan.plan_edu {
+    min-height: 275px
+}
+
+.plans .plan.with_photography_plan.plan_team_edu, .plans .plan.with_photography_plan.plan_device_edu {
+    min-height: 325px
+}
+
+.plans .plan.with_photography_plan ul {
+    padding-right: 8px
+}
+
+.plans .plan.free_plan.with_photography_plan .push_bottom {
+    clear: both;
+    height: 0
+}
+
+.plans .plan.free_plan.with_photography_plan .plan_features ul {
+    padding-left: 0
+}
+
+.plans .plan.free_plan.with_photography_plan .plan_features ul li {
+    display: inline-block;
+    margin-right: 8px;
+    white-space: nowrap
+}
+
+.plans .plan.free_plan.free_one_line_display .plan_features ul li {
+    font-size: 16px;
+    font-size: 1.0rem
+}
+
+.plans .plan.free_plan.with_photography_plan .plan_description_text, .plans .plan.free_plan.with_photography_plan .plan_sign_up {
+    display: inline-block;
+    position: inherit;
+    text-align: left
+}
+
+.plans .plan.free_plan.free_one_line_display .plan_description_text {
+    vertical-align: top;
+    text-align: center;
+    padding-bottom: 5px
+}
+
+.plans .plan.free_plan.with_photography_plan .plan_sign_up {
+    padding-top: 9px;
+    padding-left: 19px;
+    bottom: 10px
+}
+
+.plans .plan.free_plan.with_photography_plan .plan_sign_up a {
+    margin-bottom: 0
+}
+
+.plans .plan.plan_upgrade.with_photography_plan {
+    margin-left: -10px;
+    margin-right: 10px
+}
+
+.plans .plan_grand_gesture {
+    width: 300px
+}
+
+.plan .plan_title, .single_app_info .plan_title {
+    font-weight: bold;
+    font-size: 19px;
+    font-size: 1.2rem;
+    color: #444
+}
+
+.plan.free_one_line_display .plan_title, .plan.free_one_line_display .plan_features_info, .plan.free_one_line_display .plan_features {
+    display: inline-block
+}
+
+.plan.free_one_line_display .plan_title {
+    margin-right: 10px
+}
+
+.plan .plan_subheading {
+    font-size: 14px;
+    font-size: .8rem;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 3px;
+    line-height: 15px
+}
+
+.plan .plan_title.smaller_plan_title {
+    font-size: 1.0rem
+}
+
+.plan_features_info {
+    font-family: adobe-clean, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-size: .75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal
+}
+
+.plan_options .commitment_length {
+    font-size: .75em;
+    max-width: 100%
+}
+
+.plan .plan_cost, .single_app_info .plan_cost {
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 50px;
+    height: 54px
+}
+
+.cjk-locale-glyphs .plan .plan_cost, .cjk-locale-glyphs .single_app_info .plan_cost {
+    font-weight: 300 !important
+}
+
+.plan .plan_cost.japanese_free_plan_cost {
+    font-size: 28px;
+    line-height: 28px
+}
+
+.plan .plan_cost.smaller_free_plan_cost {
+    font-size: 38px;
+    line-height: 52px
+}
+
+.plan .plan_cost.smaller_new_offer_plan_cost {
+    font-size: 38px;
+    line-height: 34px
+}
+
+.plan .plan_cost.medium_free_plan_cost {
+    font-size: 48px;
+    line-height: 52px
+}
+
+.plan_cost.smaller_price {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px
+}
+
+.cjk-locale-glyphs .plan_cost.smaller_price {
+    font-weight: 300 !important
+}
+
+.plan_cost.smaller_price .per_month, .plan_cost.smaller_price .superscript {
+    font-size: 14px
+}
+
+.plan.bordered_plan {
+    background-color: #ffffff;
+    color: #444;
+    border: 1px solid #ffffff;
+    padding-left: 15px;
+    padding-bottom: 56px;
+    padding-right: 5px;
+    margin-top: -1px -webkit-border-radius : 6 px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.plan.bordered_plan .plan_sign_up a {
+    margin-bottom: 15px
+}
+
+.plan .wrapping_header {
+    background: #f9c328;
+    color: #444;
+    font-size: 7pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 6px 4px 6px;
+    margin-left: -21px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.plan .wrapping_header .arrow {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-left: 5px solid transparent;
+    border-top: 7px solid hsl(44, 55%, 47%);
+    top: 100%;
+    left: 0;
+    position: absolute
+}
+
+.plans .plans_tabs_container {
+    background: transparent;
+    position: relative;
+    min-height: 20px;
+    z-index: 100;
+    padding: 0;
+    border-bottom: 1px solid #999
+}
+
+.plans .plans_tabs_container ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    max-width: 1040px
+}
+
+.plans .plans_tabs_container li {
+    position: relative;
+    z-index: 10;
+    list-style-type: none;
+    display: table-cell;
+    min-width: 75px;
+    height: auto;
+    vertical-align: bottom;
+    text-align: center
+}
+
+.plans .plans_tabs_container li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 8px 0 8px 0;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #fff;
+    width: 85%;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: -10px;
+    padding-right: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%
+}
+
+.plans .plans_tabs_container li a h2 {
+    font-weight: normal;
+    color: #999;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    line-height: normal
+}
+
+.plans .plans_tabs_container li a:visited {
+    color: #a09d9d
+}
+
+.plans .plans_tabs_container li a:hover {
+    color: #666
+}
+
+.plans .plans_tabs_container li.selected {
+    position: relative;
+    border-bottom: 0;
+    font-weight: bold;
+    filter: none;
+    z-index: 100
+}
+
+.plans .plans_tabs_container li.selected a {
+    color: #000;
+    cursor: default;
+    font-weight: bold;
+    border-color: #999;
+    position: relative;
+    top: 1px;
+    padding-bottom: 13px
+}
+
+.plans .plans_tabs_container li.selected a h2 {
+    color: #000;
+    font-weight: bold
+}
+
+.plans .plans_tabs_container li.selected a:hover {
+    text-decoration: none
+}
+
+.plans .plans_tabs_contents {
+    min-height: 280px;
+    display: block;
+    padding: 25px 0 10px 0
+}
+
+.plans_tabs_contents .tab_panel {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1040px
+}
+
+.plans_tabs_contents .plans_list {
+    padding: 0 30px 0 30px
+}
+
+.superscript {
+    font-size: 18px;
+    vertical-align: top;
+    font-weight: inherit;
+    display: inline-block;
+    white-space: nowrap;
+    line-height: normal;
+}
+
+.plan_cost {
+    margin-top: 30px;
+}
+
+.plan_cost span.cents, .plan_cost span.symbol_suffix {
+    width: 25px
+}
+
+.per_month {
+    vertical-align: baseline;
+    line-height: 52px;
+    font-size: 18px;
+    font-weight: inherit;
+    position: relative;
+    left: -25px;
+    max-width: 53px
+}
+
+.per_month.no_indent {
+    left: 0
+}
+
+.plan_cost_info {
+    line-height: 18px;
+    color: #247fcc;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    font-weight: 400
+}
+
+.plan_cost_info .vat_info {
+    padding-top: 4px;
+    font-size: 12px
+}
+
+.plan_cost_info .per_user {
+    font-size: 16px
+}
+
+.tax_info_footnote {
+    float: left;
+    font-size: 12px;
+    font-size: .75em;
+    margin-left: 30px;
+    margin-right: 10px;
+    line-height: 24px
+}
+
+.plan_features ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 16px;
+    font-size: .75rem;
+    line-height: 18px
+}
+
+.plan .plan_features ul a {
+    text-decoration: none
+}
+
+.plan .plan_sign_up {
+    position: absolute;
+    bottom: 0
+}
+
+.plan .plan_sign_up a, .single_app_sign_up_button {
+    padding: 8px 30px 8px 30px;
+    margin-bottom: 10px;
+    min-width: 80px
+}
+
+.plan .plan_sign_up a.disabled, .plan .plan_sign_up a.disabled:hover {
+    background-color: #d9d9d9;
+    background-repeat: no-repeat;
+    border: none !important;
+    background-image: none
+}
+
+.special_offer .special_offer_text {
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    max-width: 415px
+}
+
+.special_offer .special_offer_text p {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #545454;
+    margin-top: 40px
+}
+
+.special_offer .special_offer_text p.offer_fine_print {
+    font-size: 1.2em;
+    margin-top: 8px;
+    font-weight: 200
+}
+
+.special_offer .plan.plan_special_offer {
+    margin-bottom: 21px
+}
+
+.special_offer .footnote {
+    font-size: .75em;
+    color: #666;
+    margin-right: 24px
+}
+
+.special_offer .edu_tab_content {
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.special_offer .educational_offer_text {
+    display: inline-block;
+    margin: 5px 50px 5px 0;
+    max-width: 415px
+}
+
+p.edu_institutions_text.temp_reimagine {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding: 5px 10px 5px 10px
+}
+
+.educational_offer_text .edu_institutions_text .education_contact_info {
+    font-size: inherit
+}
+
+.educational_offer_text.with_photography_plan p.edu_team_text, .educational_offer_text.with_photography_plan p.edu_institutions_text {
+    margin-top: 16px
+}
+
+.special_offer .edu_tab_content .plan {
+    min-height: 185px
+}
+
+.team_plans .team_tab_content {
+    margin-left: 30px;
+    margin-right: 20px
+}
+
+.team_plans .teams_text {
+    display: inline-block;
+    margin: 5px 40px 40px 0;
+    margin-right: 40px;
+    max-width: 415px
+}
+
+.team_plans .teams_text p, .team_plans .teams_text span, .edu_tab_content .educational_offer_text p {
+    font-size: 18px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 24px;
+    color: #545454
+}
+
+.team_plans .teams_text a.learn_more, .edu_tab_content .educational_offer_text a.learn_more {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 19px;
+    font-size: 1.1rem
+}
+
+.team_plans .teams_text p .bold, .edu_tab_content .educational_offer_text p .bold, .special_offers_content .special_offers_text p .bold, .edu_tab_content p.edu_institutions_text .bold {
+    font-size: 19px;
+    font-size: 1.1rem;
+    line-height: 24px;
+    font-weight: 600
+}
+
+.edu_tab_content p.edu_institutions_text .temp_reimagine {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8f8f8
+}
+
+.team_plans .teams_text a, .edu_tab_content .educational_offer_text a {
+    text-decoration: none
+}
+
+.team_plans .teams_text a:hover, .edu_tab_content .educational_offer_text a:hover {
+    text-decoration: underline
+}
+
+.team_plans .teams_text .team_contact_info {
+    font-size: inherit
+}
+
+.team_plans .teams_text .enterprise_team_text {
+    margin-top: 16px
+}
+
+.team_plans .teams_text .enterprise_other_regions {
+    font-size: 12px;
+    font-size: .75em
+}
+
+.team_plans .plan {
+    min-height: 200px
+}
+
+.team_plans .plan.plan_team_upgrade {
+    width: 225px;
+    padding-right: 10px
+}
+
+.team_plans .plan.plan_team_upgrade.temp_reimagine {
+    width: 220px;
+    padding-right: 0;
+    margin-right: 20px
+}
+
+.team_plans .plan .plan_features {
+    padding-bottom: 5px
+}
+
+.individual_plans .tab_footer .ind_order_footnote, .special_offer .tab_footer .edu_order_footnote, .team_plans .tab_footer .team_order_footnote, .single_apps .tab_footer .single_app_order_footnote {
+    float: left;
+    font-size: 16px;
+    font-size: 1rem;
+    margin-left: 0;
+    margin-right: 10px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 10px 20px 0 0
+}
+
+.individual_plans .tab_footer .ind_order_footnote2, .special_offer .tab_footer .edu_order_footnote2, .team_plans .tab_footer .team_order_footnote2, .single_apps .tab_footer .single_app_order_footnote2 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center
+}
+
+.plans .tab_footer .payment_method_footnote {
+    display: inline-block;
+    margin: 10px 20px 12px 0;
+    height: 28px;
+    vertical-align: middle
+}
+
+.plans .payment_info {
+    margin-top: 10px;
+    text-align: center
+}
+
+.plans .payment_icon_visa {
+    display: inline-block;
+    width: 45px;
+    height: 28px;
+    background: url('/resource/img/plans_billing_sprites.png') -40px -360px no-repeat
+}
+
+.plans .payment_icon_mastercard {
+    display: inline-block;
+    width: 45px;
+    height: 28px;
+    background: url('/resource/img/plans_billing_sprites.png') -40px -200px no-repeat
+}
+
+.plans .payment_icon_amex {
+    display: inline-block;
+    width: 45px;
+    height: 28px;
+    background: url('/resource/img/plans_billing_sprites.png') -40px 0 no-repeat
+}
+
+.plans .payment_icon_jcb {
+    display: inline-block;
+    width: 45px;
+    height: 28px;
+    background: url('/resource/img/plans_billing_sprites.png') -40px -120px no-repeat
+}
+
+.plans .payment_icon_directdebit_de {
+    display: inline-block;
+    width: 97px;
+    height: 28px;
+    background: url('/resource/img/plans_billing_sprites.png') -100px -342px no-repeat
+}
+
+.plans .special_offers_container {
+    min-height: 260px;
+    display: block;
+    padding: 20px 0 0 0;
+    background: #efefef;
+    margin-left: 30px;
+    margin-right: 20px
+}
+
+.special_offers .special_offers_text {
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    max-width: 250px
+}
+
+.special_offers .special_offer_texts p {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #545454;
+    margin-top: 40px
+}
+
+.special_offers .special_offer_texts p.offer_fine_print {
+    font-size: 1.2em;
+    margin-top: 8px;
+    font-weight: 200
+}
+
+.special_offers .plan.plan_special_offer {
+    margin-bottom: 21px
+}
+
+.special_offers .footnote {
+    font-size: .75em;
+    color: #666;
+    margin-right: 24px
+}
+
+.plans .special_offers {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    background: #efefef
+}
+
+.plans .special_offers .navigation_bar {
+    height: 49px;
+    width: 100%;
+    display: block;
+    vertical-align: top
+}
+
+.special_offers .navigation_bar span.back {
+    width: 50px;
+    height: 49px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.special_offers .navigation_bar span.back a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    line-height: 47px;
+    text-align: center;
+    background-image: url('/resource/img/plans_back_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 18px 17px
+}
+
+.special_offers .navigation_bar .vrule {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 47px
+}
+
+.special_offers .navigation_bar .single_apps_nav_title {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 49px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.plans .single_apps {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.plans .single_apps .navigation_bar {
+    height: 49px;
+    width: 100%;
+    display: block;
+    vertical-align: top
+}
+
+.single_apps .navigation_bar span.back {
+    width: 50px;
+    height: 49px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.single_apps .navigation_bar span.back a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    line-height: 47px;
+    text-align: center;
+    background-image: url('/resource/img/plans_reimagine_back_arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px 30px
+}
+
+.single_apps .navigation_bar .vrule {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 47px
+}
+
+.single_apps .navigation_bar .single_apps_nav_title {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 49px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.plans .single_app_list {
+    height: 340px;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    padding-left: 50px
+}
+
+.plans table.single_app_list_items {
+    overflow: hidden;
+    width: 100%;
+    min-width: 495px
+}
+
+.single_app_list:focus {
+    outline-style: none
+}
+
+.single_app_list tr.app_row {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 41px;
+    vertical-align: middle
+}
+
+.single_app_list .app_row td.arrow_image {
+    background: transparent url('/resource/img/plans_reimagine_single_app_arrow.png') 20px center no-repeat;
+    width: 41px;
+    height: 21px
+}
+
+.single_app_list .app_row.selected {
+    background-color: #ebebeb
+}
+
+.single_app_list .app_row.selected td.arrow_image {
+    opacity: .5
+}
+
+.app_row .checkbox {
+    width: 0
+}
+
+.app_row .product_icon {
+    padding-top: 8px;
+    width: 24px
+}
+
+.app_row .product_icon img {
+    vertical-align: middle;
+    width: 24px
+}
+
+.app_row td.product_name {
+    padding-left: 15px;
+    padding-right: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    width: 160px;
+    height: 41px
+}
+
+.app_row td.product_description {
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 500;
+    color: #444;
+    width: 215px
+}
+
+.plans .single_app_info {
+    min-height: 305px;
+    width: 235px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 15px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative
+}
+
+.plans .single_app_info .single_app_sign_up {
+    margin-bottom: 0
+}
+
+.plans .single_app_info .single_app_sign_up.temp_reimagine {
+    position: absolute;
+    bottom: 0
+}
+
+.plans .single_app_info .fine_print {
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    position: relative;
+    padding-right: 10px
+}
+
+.plans .single_app_info .fine_print span.asterisk {
+    margin-right: 3px;
+    display: inline-block;
+    position: absolute;
+    left: -7px
+}
+
+.single_app_sign_up a.disabled, .single_app_sign_up a.disabled:hover {
+    background-color: #ddd;
+    background-image: none;
+    color: #fff;
+    border: 0 none !important
+}
+
+.legal_footer {
+    z-index: 1100
+}
+
+.l-landing_plans a.adobe_flag span {
+    display: block;
+    z-index: 2000;
+    width: 43px;
+    height: 69px;
+    background-color: transparent;
+    background-image: url('/resource/img/adobe_flag.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: -60px;
+    opacity: 1;
+    -webkit-box-shadow: 0 3px 6px 2px rgba(3, 3, 3, 0.3);
+    -moz-box-shadow: 0 3px 6px 2px rgba(3, 3, 3, 0.3);
+    box-shadow: 0 3px 6px 2px rgba(3, 3, 3, 0.3)
+}
+
+@media only screen and (min-width: 1600px) {
+    .l-landing_plans .card {
+        position: relative;
+        float: none;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .l-landing_plans .plans {
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .special_offer .plan.plan_special_offer {
+        margin: 30px 25px 30px 0
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .l-landing_plans {
+        zoom: 92%
+    }
+
+    .l-landing_plans .overlay_container {
+        margin-top: 15px
+    }
+
+    .l-landing_plans .card {
+        max-height: 575px
+    }
+
+    .info_section {
+        margin-bottom: 5px
+    }
+
+    .l-landing_plans .plans {
+        margin: 15px 40px 95px 40px
+    }
+
+    .plans .single_app_list {
+        height: auto
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .plans .plan.free_plan.with_photography_plan .plan_sign_up {
+        padding-left: 0
+    }
+
+    .plans .plan {
+        margin-left: 60px;
+        margin-bottom: 65px;
+        min-height: 190px
+    }
+
+    .plans .plan.plan_upgrade.with_photography_plan {
+        margin-left: 55px;
+        margin-bottom: 60px;
+        min-height: 190px
+    }
+
+    .plans .single_app_list {
+        height: auto
+    }
+
+    .plans table.single_app_list_items {
+        min-width: 330px;
+        max-width: 575px;
+        width: auto
+    }
+
+    .team_plans .teams_text, .special_offer .educational_offer_text {
+        margin: 5px 10px 10px 60px
+    }
+
+    .team_plans .plan {
+        margin-bottom: 30px;
+        min-height: 180px
+    }
+
+    .single_app_list tr.app_row {
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 60px
+    }
+
+    .app_row .product_icon {
+        padding-top: 16px
+    }
+
+    .app_row td.product_description {
+        width: 160px
+    }
+
+    .app_row td.product_name {
+        width: 100px;
+        height: 60px;
+        vertical-align: middle
+    }
+
+    .single_app_list .app_row td.arrow_image {
+        background-position: 10px 20px;
+        width: 31px;
+        height: 21px
+    }
+
+    .plans .single_app_info {
+        padding-left: 30px;
+        padding-right: 15px
+    }
+
+    .special_offer .plan.plan_special_offer {
+        margin: 30px 25px 30px 0
+    }
+
+    .special_offer .special_offer_text {
+        margin-left: 60px
+    }
+
+    .plans .plans_tabs_container li a {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .l-landing_plans .card .icon_arrangement {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .l-landing_plans {
+        min-height: 635px
+    }
+
+    .page_landing_plans_html #footer {
+        position: absolute;
+        bottom: 0
+    }
+
+    .l-landing_plans .card {
+        position: relative;
+        float: none;
+        top: 0;
+        right: 0;
+        padding: 16px;
+        background: 0
+    }
+
+    .l-landing_plans .card .learn_more {
+        padding-left: 0
+    }
+
+    .info_section .info_text {
+        padding-right: 20px;
+        width: 290px
+    }
+
+    .l-landing_plans .plans {
+        height: 100%
+    }
+
+    .plans .plans_tabs_container li a {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .plans .plan {
+        margin-left: 0;
+        margin-bottom: 55px;
+        min-height: 190px
+    }
+
+    .plans .plan.plan_upgrade.with_photography_plan {
+        margin-left: -5px;
+        margin-bottom: 50px;
+        min-height: 190px
+    }
+
+    .team_plans .teams_text, .special_offer .educational_offer_text {
+        margin: 5px 10px 10px 0
+    }
+
+    .single_apps .navigation_bar .single_apps_nav_title {
+        font-size: 18px
+    }
+
+    .plans .single_app_list {
+        height: auto
+    }
+
+    .plans table.single_app_list_items {
+        min-width: 300px
+    }
+
+    .single_app_list tr.app_row {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 72px
+    }
+
+    .app_row .product_icon {
+        padding-top: 22px
+    }
+
+    .app_row td.product_name {
+        width: 85px;
+        height: 72px;
+        vertical-align: middle
+    }
+
+    .app_row td.product_description {
+        width: 130px;
+        padding-right: 15px
+    }
+
+    .single_app_list .app_row td.arrow_image {
+        background-position: 10px 25px
+    }
+
+    .special_offer .special_offer_text {
+        margin-right: 25px
+    }
+
+    .special_offer .special_offer_text p {
+        font-size: 1em
+    }
+
+    .special_offer .plan.plan_special_offer {
+        margin: 30px 25px 30px 0
+    }
+
+    .team_plans .team_order_footnote {
+        float: none;
+        display: block;
+        margin-left: 10px
+    }
+
+    .plans .currency_dropdown {
+        text-align: center
+    }
+
+    .special_offer .footnote {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .plans .plan.free_plan.with_photography_plan .plan_sign_up {
+        padding-left: 0
+    }
+
+    .l-landing_plans .card {
+        position: relative;
+        float: none;
+        top: 0;
+        right: 0;
+        padding: 16px;
+        min-width: 100px;
+        max-width: 100%
+    }
+
+    .l-landing_plans .card .learn_more {
+        padding-left: 0
+    }
+
+    .info_section .info_text {
+        padding-right: 20px;
+        width: 290px
+    }
+
+    .l-landing_plans .card h1 {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 1.2;
+        font-weight: normal
+    }
+
+    .l-landing_plans .plans {
+        height: 100%
+    }
+
+    .plans .plans_tabs_container li a {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .plans .plan {
+        margin-top: 30px;
+        margin-bottom: 55px;
+        min-height: 190px
+    }
+
+    .plans .single_app_list {
+        height: auto;
+        width: 100%;
+        overflow-x: hidden
+    }
+
+    .plans .single_apps {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .plans table.single_app_list_items {
+        min-width: 300px
+    }
+
+    .app_row td.product_description {
+        width: 130px;
+        padding-right: 15px
+    }
+
+    .single_app_list tr.app_row {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 72px
+    }
+
+    .app_row td.product_name {
+        width: 85px
+    }
+
+    .special_offer .special_offer_text {
+        margin-right: 25px
+    }
+
+    .special_offer .special_offer_text p {
+        font-size: 1em
+    }
+
+    .special_offer .plan.plan_special_offer {
+        margin: 30px 25px 30px 0
+    }
+
+    .plans .currency_dropdown {
+        text-align: center
+    }
+
+    .special_offer .footnote {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 540px) and (-webkit-min-device-pixel-ratio: 2) {
+    .l-landing_plans .card {
+        position: relative;
+        float: none;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 16px;
+        min-width: 100px;
+        max-width: 100%
+    }
+
+    .l-landing_plans .card .learn_more {
+        padding-left: 0
+    }
+
+    .info_section .info_text {
+        padding-right: 20px;
+        width: 290px
+    }
+
+    .plans .plans_tabs_container li a h2 {
+        font-size: 18px;
+        font-size: 1.1rem
+    }
+
+    .plans .plans_tabs_contents {
+        margin: 15px 5px 95px 5px
+    }
+
+    .plans .plans_tabs_container li a {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .plans .plan {
+        margin-bottom: 55px;
+        min-height: 100px
+    }
+
+    .plans .single_app_list {
+        height: auto
+    }
+
+    .special_offer .special_offer_text {
+        margin-left: 20px;
+        margin-right: 25px
+    }
+
+    .special_offer .special_offer_text p {
+        font-size: 1em
+    }
+
+    .special_offer .plan.plan_special_offer {
+        margin: 30px 25px 30px 0
+    }
+
+    .plans .currency_dropdown {
+        text-align: center
+    }
+
+    .special_offer .footnote {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .l-landing_plans .plans {
+        height: 100%
+    }
+
+    .plans .plans_tabs_contents {
+        margin: 15px 5px 95px 5px
+    }
+
+    .plans table.single_app_list_items {
+        min-width: 300px;
+        width: 100%
+    }
+
+    .app_row td.product_description {
+        width: 110px;
+        padding-right: 10px
+    }
+
+    .single_app_list tr.app_row {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 72px
+    }
+
+    .app_row td.product_name {
+        width: 95px;
+        padding-left: 8px;
+        padding-right: 10px
+    }
+
+    .single_app_list .app_row td.arrow_image {
+        background-position: 3px 25px;
+        width: 24px
+    }
+}
+
+.l-landing_plans .card .large_icon {
+    background-repeat: no-repeat;
+    background-image: url('/resource/img/cc-red.png')
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .l-landing_plans .card .large_icon {
+        background-image: url('/resource/img/cc-red-2x.png');
+        background-size: 55px
+    }
+
+    .subsection.graphics.tools {
+        background-image: url('/resource/img/plans_tools-2x.png');
+        background-size: 134px 65px;
+        background-repeat: no-repeat
+    }
+
+    .subsection.graphics.sync {
+        background-image: url('/resource/img/plans_sync-2x.png');
+        background-size: 83px 64px;
+        background-repeat: no-repeat
+    }
+
+    .subsection.graphics.publish {
+        background-image: url('/resource/img/plans_publish-2x.png');
+        background-size: 77px 57px;
+        background-repeat: no-repeat
+    }
+
+    .single_apps .navigation_bar span.back a {
+        background-image: url('/resource/img/plans_reimagine_back_arrow-2x.png');
+        background-repeat: no-repeat
+    }
+
+    .single_app_list .app_row td.arrow_image {
+        background-image: url('/resource/img/plans_reimagine_single_app_arrow-2x.png');
+        background-size: 12px
+    }
+}
+
+@media only screen and (max-height: 730px) {
+    .l-landing_plans .overlay_container {
+        margin-top: 8px
+    }
+
+    .l-landing_plans .plans {
+        margin-top: 10px
+    }
+
+    .plans .plans_tabs_container li a {
+        font-size: 18px;
+        font-size: 1.3em
+    }
+
+    .plans .plans_tabs_contents {
+        min-height: 280px;
+        padding-top: 25px
+    }
+
+    .plans .plan {
+        margin-bottom: 15px;
+        padding-bottom: 50px
+    }
+
+    .plan .plan_title {
+        font-size: 18px;
+        font-size: 1.1rem
+    }
+}
